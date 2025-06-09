@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Finalize Reservation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Finalize Your Reservation</h1>
+    <p>Please enter your real email to complete the process:</p>
+    <form id="finalForm" onsubmit="return false;">
+      <input type="email" id="userEmail" placeholder="your@email.com" required />
+      <button type="submit" id="submitBtn">Submit</button>
+    </form>
+    <p id="message" class="message"></p>
+  </div>
+  <script src="contact.js"></script>
+</body>
+</html>
