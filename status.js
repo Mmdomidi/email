@@ -49,7 +49,7 @@ async function reserveEmail() {
   try {
     const formData = new URLSearchParams({ name });
 
-    const response = await fetch("https://aland-learning.darkube.app/webhook/reserve", {
+    const response = await fetch("https://aland-learning.darkube.app/webhook-test/reserve", {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded"
