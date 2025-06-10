@@ -8,7 +8,7 @@ async function submitName() {
   }
 
   try {
-    const response = await fetch("https://aland-learning.darkube.app/webhook/check-email", {
+    const response = await fetch("https://aland-learning.darkube.app/webhook-test/check-email", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name })
