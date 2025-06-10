@@ -14,7 +14,7 @@ form.addEventListener("submit", async (e) => {
   try {
     const formData = new URLSearchParams({ email });
 
-    const response = await fetch("https://aland-learning.darkube.app/webhook-test/email", {
+    const response = await fetch("https://aland-learning.darkube.app/webhook/email", {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded"
